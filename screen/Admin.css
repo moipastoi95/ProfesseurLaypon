@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Oswald&display=swap');
+
+.adminPanel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.adminPanel > * {
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Oswald', sans-serif;
+}
+
+.speechForm {
+    height:auto;
+    background-color: #cccccc;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+input[type=checkbox] {
+    -webkit-transform: scale(3); /* Safari and Chrome */
+    transform: scale(3);
+    margin: 2em;
+}
+
+.checkbox > label {
+    font-size: large;
+}
+
+.speechForm > button {
+    position: absolute;
+    display: block;
+    right: 0;
+    margin-right: 5em;
+    margin-top: 1em;
+}
+
+.speechForm > textarea {
+    width: 80%;
+    height: 6em;
+    font-size: 25px;
+}
+
+button {
+    font-size: larger;
+    padding: 0.3em;
+}
+
+.sectionBtn {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fastSpeechBtn {
+
+}
+
+.tempBtn {
+    background-color: #cccccc;
+}
+
+.corrBtn {
+    background-color: #6cd67e;
+}
+
+.incorrBtn {
+    background-color: #f75b5b;
+}
+
+.skipBtn {
+    background-color: #ba80f0;
+}
+
+.restartBtn {
+    padding-top: 30em;
+    position: absolute;
+    right: 1em;
+}
+
+.restartBtn > * {
+    background-color: rgb(228, 49, 18);
+    color: white;
+}
