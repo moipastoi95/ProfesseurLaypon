@@ -1,6 +1,6 @@
 {
   "main": "node_modules/expo/AppEntry.js",
-  "homepage": "moipastoi95.github.io/professeurlaypon",
+  "homepage": "https://moipastoi95.github.io/professeurlaypon",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",

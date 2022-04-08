@@ -1,11 +1,8 @@
 import React, {useEffect, useState} from 'react';
-import {Text} from 'react-native'
 import io from 'socket.io-client';
-// import Messages from "./screen/Messages";
-// import MessageInput from "./screen/MessageInput";
-import Home from "./screen/Home";
-import Admin from "./screen/Admin";
-import Manage from "./screen/Manage";
+// import Home from "./screen/Home";
+// import Admin from "./screen/Admin";
+// import Manage from "./screen/Manage";
 
 const MyStack = () => {
   const [socket, setSocket] = useState(null)
