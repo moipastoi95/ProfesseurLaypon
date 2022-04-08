@@ -45,7 +45,7 @@ const MyStack = () => {
   return (<div>
     {socket ? (
       <div>
-        <Home socket={socket} />
+        <Admin socket={socket} />
       </div>
     ) : (
       <div>Not connected</div>
