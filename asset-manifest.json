@@ -1,7 +1,7 @@
 {
   "files": {
-    "app.js": "moipastoi95.github.io/professeurlaypon/static/js/app.a3ecb1e8.chunk.js",
-    "app.js.map": "moipastoi95.github.io/professeurlaypon/static/js/app.a3ecb1e8.chunk.js.map",
+    "app.js": "moipastoi95.github.io/professeurlaypon/static/js/app.1a028ebe.chunk.js",
+    "app.js.map": "moipastoi95.github.io/professeurlaypon/static/js/app.1a028ebe.chunk.js.map",
     "runtime~app.js": "moipastoi95.github.io/professeurlaypon/static/js/runtime~app.b94b44d3.js",
     "runtime~app.js.map": "moipastoi95.github.io/professeurlaypon/static/js/runtime~app.b94b44d3.js.map",
     "static/js/2.647c01e8.chunk.js": "moipastoi95.github.io/professeurlaypon/static/js/2.647c01e8.chunk.js",
@@ -31,6 +31,6 @@
   "entrypoints": [
     "static/js/runtime~app.b94b44d3.js",
     "static/js/2.647c01e8.chunk.js",
-    "static/js/app.a3ecb1e8.chunk.js"
+    "static/js/app.1a028ebe.chunk.js"
   ]
 }
