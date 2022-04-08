@@ -1,7 +1,7 @@
 {
   "files": {
-    "app.js": "/professeurlaypon/static/js/app.627e3bd4.chunk.js",
-    "app.js.map": "/professeurlaypon/static/js/app.627e3bd4.chunk.js.map",
+    "app.js": "/professeurlaypon/static/js/app.91ce3ba5.chunk.js",
+    "app.js.map": "/professeurlaypon/static/js/app.91ce3ba5.chunk.js.map",
     "runtime~app.js": "/professeurlaypon/static/js/runtime~app.cab14459.js",
     "runtime~app.js.map": "/professeurlaypon/static/js/runtime~app.cab14459.js.map",
     "static/js/2.b1d1a019.chunk.js": "/professeurlaypon/static/js/2.b1d1a019.chunk.js",
@@ -31,6 +31,6 @@
   "entrypoints": [
     "static/js/runtime~app.cab14459.js",
     "static/js/2.b1d1a019.chunk.js",
-    "static/js/app.627e3bd4.chunk.js"
+    "static/js/app.91ce3ba5.chunk.js"
   ]
 }
