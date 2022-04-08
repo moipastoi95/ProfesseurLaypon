@@ -1,25 +1,20 @@
 import React, {useEffect, useState} from 'react';
 import io from 'socket.io-client';
-// import Home from "./screen/Home";
-// import Admin from "./screen/Admin";
-// import Manage from "./screen/Manage";
+import Home from "./screen/Home";
+import Admin from "./screen/Admin";
+import Manage from "./screen/Manage";
 
 const MyStack = () => {
   const [socket, setSocket] = useState(null)
   
   useEffect(() => {
-    const newSocket = io(`backlaypon.alwaysdata.net`, {transports: ['websocket']}); // http://${window.location.hostname}:3000
+    const newSocket = io(`http://backlaypon-env.eba-q7y4uvtd.eu-west-3.elasticbeanstalk.com/`, {transports: ['websocket']}); // http://${window.location.hostname}:3000
     setSocket(newSocket);
     return () => newSocket.close();
   }, [setSocket]);
 
   // show different screen according to the url
   const urlpath = window.location.pathname;
-  return (
-    <div>
-      C'est bon ça marche
-    </div>
-  )
   if (urlpath == '/') {
     return (
       <div>
