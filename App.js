@@ -11,13 +11,18 @@ const MyStack = () => {
   const [socket, setSocket] = useState(null)
   
   useEffect(() => {
-    const newSocket = io(`http://backlaypon.alwaysdata.net`, {transports: ['websocket']}); // http://${window.location.hostname}:3000
+    const newSocket = io(`backlaypon.alwaysdata.net`, {transports: ['websocket']}); // http://${window.location.hostname}:3000
     setSocket(newSocket);
     return () => newSocket.close();
   }, [setSocket]);
 
   // show different screen according to the url
   const urlpath = window.location.pathname;
+  return (
+    <div>
+      C'est bon ça marche
+    </div>
+  )
   if (urlpath == '/') {
     return (
       <div>
