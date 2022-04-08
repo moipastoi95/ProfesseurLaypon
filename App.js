@@ -18,6 +18,7 @@ const MyStack = () => {
   if (urlpath == '/') {
     return (
       <div>
+        rien
         {socket ? (
           <div>
             <Home socket={socket}/>
@@ -28,7 +29,9 @@ const MyStack = () => {
       </div>
     );
   } else if (urlpath == '/admin') {
-    return (<div>
+    return (
+    <div>
+      admin
       {socket ? (
         <div>
           <Admin socket={socket}/>
@@ -38,7 +41,9 @@ const MyStack = () => {
       )}
     </div>);
   } else if (urlpath == '/manage') {
-    return (<div>
+    return (
+    <div>
+      manage
       {socket ? (
         <div>
           <Manage socket={socket}/>
