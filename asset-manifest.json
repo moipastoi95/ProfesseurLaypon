@@ -1,36 +1,22 @@
 {
   "files": {
-    "app.js": "moipastoi95.github.io/professeurlaypon/static/js/app.1a028ebe.chunk.js",
-    "app.js.map": "moipastoi95.github.io/professeurlaypon/static/js/app.1a028ebe.chunk.js.map",
-    "runtime~app.js": "moipastoi95.github.io/professeurlaypon/static/js/runtime~app.b94b44d3.js",
-    "runtime~app.js.map": "moipastoi95.github.io/professeurlaypon/static/js/runtime~app.b94b44d3.js.map",
-    "static/js/2.647c01e8.chunk.js": "moipastoi95.github.io/professeurlaypon/static/js/2.647c01e8.chunk.js",
-    "static/js/2.647c01e8.chunk.js.map": "moipastoi95.github.io/professeurlaypon/static/js/2.647c01e8.chunk.js.map",
-    "favicon-16.png": "moipastoi95.github.io/professeurlaypon/favicon-16.png",
-    "favicon-32.png": "moipastoi95.github.io/professeurlaypon/favicon-32.png",
-    "favicon.ico": "moipastoi95.github.io/professeurlaypon/favicon.ico",
-    "index.html": "moipastoi95.github.io/professeurlaypon/index.html",
-    "manifest.json": "moipastoi95.github.io/professeurlaypon/manifest.json",
-    "serve.json": "moipastoi95.github.io/professeurlaypon/serve.json",
-    "static/js/2.647c01e8.chunk.js.LICENSE.txt": "moipastoi95.github.io/professeurlaypon/static/js/2.647c01e8.chunk.js.LICENSE.txt",
-    "static/media/blackbg.jpg": "moipastoi95.github.io/professeurlaypon/static/media/blackbg.d6296dea.jpg",
-    "static/media/enigme1.jpg": "moipastoi95.github.io/professeurlaypon/static/media/enigme1.40ee02b5.jpg",
-    "static/media/erin.png": "moipastoi95.github.io/professeurlaypon/static/media/erin.0b81b19d.png",
-    "static/media/fail.png": "moipastoi95.github.io/professeurlaypon/static/media/fail.32fea01e.png",
-    "static/media/horloge.jpg": "moipastoi95.github.io/professeurlaypon/static/media/horloge.3abe73aa.jpg",
-    "static/media/layton-fail1.png": "moipastoi95.github.io/professeurlaypon/static/media/layton-fail1.38b84610.png",
-    "static/media/layton-fail2.png": "moipastoi95.github.io/professeurlaypon/static/media/layton-fail2.43555017.png",
-    "static/media/layton-success1.png": "moipastoi95.github.io/professeurlaypon/static/media/layton-success1.7b6f2fd2.png",
-    "static/media/layton-success2.png": "moipastoi95.github.io/professeurlaypon/static/media/layton-success2.1e6669b4.png",
-    "static/media/layton.png": "moipastoi95.github.io/professeurlaypon/static/media/layton.b728c926.png",
-    "static/media/lucy.png": "moipastoi95.github.io/professeurlaypon/static/media/lucy.5d714735.png",
-    "static/media/luke.png": "moipastoi95.github.io/professeurlaypon/static/media/luke.afea749c.png",
-    "static/media/success.png": "moipastoi95.github.io/professeurlaypon/static/media/success.f9af71d8.png",
-    "static/media/village.png": "moipastoi95.github.io/professeurlaypon/static/media/village.202c3fa8.png"
+    "app.js": "/professeurlaypon/static/js/app.dcf5a5ec.chunk.js",
+    "app.js.map": "/professeurlaypon/static/js/app.dcf5a5ec.chunk.js.map",
+    "runtime~app.js": "/professeurlaypon/static/js/runtime~app.cab14459.js",
+    "runtime~app.js.map": "/professeurlaypon/static/js/runtime~app.cab14459.js.map",
+    "static/js/2.4a88ff18.chunk.js": "/professeurlaypon/static/js/2.4a88ff18.chunk.js",
+    "static/js/2.4a88ff18.chunk.js.map": "/professeurlaypon/static/js/2.4a88ff18.chunk.js.map",
+    "favicon-16.png": "/professeurlaypon/favicon-16.png",
+    "favicon-32.png": "/professeurlaypon/favicon-32.png",
+    "favicon.ico": "/professeurlaypon/favicon.ico",
+    "index.html": "/professeurlaypon/index.html",
+    "manifest.json": "/professeurlaypon/manifest.json",
+    "serve.json": "/professeurlaypon/serve.json",
+    "static/js/2.4a88ff18.chunk.js.LICENSE.txt": "/professeurlaypon/static/js/2.4a88ff18.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime~app.b94b44d3.js",
-    "static/js/2.647c01e8.chunk.js",
-    "static/js/app.1a028ebe.chunk.js"
+    "static/js/runtime~app.cab14459.js",
+    "static/js/2.4a88ff18.chunk.js",
+    "static/js/app.dcf5a5ec.chunk.js"
   ]
 }
