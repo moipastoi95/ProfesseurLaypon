@@ -15,6 +15,9 @@ const MyStack = () => {
   }, [setSocket]);
 
   let { urlpath } = useParams();
+  console.log("je marche");
+  console.log("url path " +urlpath);
+
   // show different screen according to the url
   //const urlpath = window.location.pathname;
   if (urlpath == '') {
