@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import { useParams } from 'react-router-dom';
 import io from 'socket.io-client';
 import Home from "./screen/Home";
 import Admin from "./screen/Admin";
@@ -13,9 +14,10 @@ const MyStack = () => {
     return () => newSocket.close();
   }, [setSocket]);
 
+  let { urlpath } = useParams();
   // show different screen according to the url
-  const urlpath = window.location.pathname;
-  if (urlpath == '/') {
+  //const urlpath = window.location.pathname;
+  if (urlpath == '') {
     return (
       <div>
         rien
@@ -28,7 +30,7 @@ const MyStack = () => {
         )}
       </div>
     );
-  } else if (urlpath == '/admin') {
+  } else if (urlpath == 'admin') {
     return (
     <div>
       admin
@@ -40,7 +42,7 @@ const MyStack = () => {
         <div>Not connected</div>
       )}
     </div>);
-  } else if (urlpath == '/manage') {
+  } else if (urlpath == 'manage') {
     return (
     <div>
       manage
@@ -53,7 +55,7 @@ const MyStack = () => {
       )}
     </div>);
   } else {
-    return (<div></div>);
+    return (<div>Nothing to show</div>);
   }
 
   
